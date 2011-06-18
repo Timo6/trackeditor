@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'trackeditor' target in the 'trackeditor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
