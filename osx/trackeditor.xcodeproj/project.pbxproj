@@ -39,10 +39,9 @@
 		2291966C13ABCEB3005EBD41 /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964A13ABCEB3005EBD41 /* utility.cpp */; };
 		2291966D13ABCEB3005EBD41 /* vamosworld.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2291964B13ABCEB3005EBD41 /* vamosworld.cc */; };
 		2291966E13ABCEB3005EBD41 /* weather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964C13ABCEB3005EBD41 /* weather.cpp */; };
-		2291969413ABCEC1005EBD41 /* replay.h in Resources */ = {isa = PBXBuildFile; fileRef = 2291968713ABCEC1005EBD41 /* replay.h */; };
-		2291969513ABCEC1005EBD41 /* SConscript in Resources */ = {isa = PBXBuildFile; fileRef = 2291968813ABCEC1005EBD41 /* SConscript */; };
+		2291969413ABCEC1005EBD41 /* replay.h.bak in Resources */ = {isa = PBXBuildFile; fileRef = 2291968713ABCEC1005EBD41 /* replay.h.bak */; };
 		2291969613ABCEC1005EBD41 /* sound.h.fmod in Resources */ = {isa = PBXBuildFile; fileRef = 2291968B13ABCEC1005EBD41 /* sound.h.fmod */; };
-		2291969713ABCEC1005EBD41 /* sound.h in Resources */ = {isa = PBXBuildFile; fileRef = 2291968C13ABCEC1005EBD41 /* sound.h */; };
+		2291969713ABCEC1005EBD41 /* sound.h.openal in Resources */ = {isa = PBXBuildFile; fileRef = 2291968C13ABCEC1005EBD41 /* sound.h.openal */; };
 		229196A213ABCFB5005EBD41 /* backdrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967013ABCEC1005EBD41 /* backdrop.h */; };
 		229196A313ABCFB5005EBD41 /* bezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967113ABCEC1005EBD41 /* bezier.h */; };
 		229196A413ABCFB5005EBD41 /* camera.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967213ABCEC1005EBD41 /* camera.h */; };
@@ -65,9 +64,8 @@
 		229196B513ABCFB5005EBD41 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968313ABCEC1005EBD41 /* objects.h */; };
 		229196B613ABCFB5005EBD41 /* particles.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968413ABCEC1005EBD41 /* particles.h */; };
 		229196B713ABCFB5005EBD41 /* quat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968513ABCEC1005EBD41 /* quat.h */; };
-		229196B813ABCFB6005EBD41 /* replay.h.1 in Headers */ = {isa = PBXBuildFile; fileRef = 2291968613ABCEC1005EBD41 /* replay.h.1 */; };
 		229196B913ABCFB6005EBD41 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968913ABCEC1005EBD41 /* settings.h */; };
-		229196BA13ABCFB6005EBD41 /* sound.h.1 in Headers */ = {isa = PBXBuildFile; fileRef = 2291968A13ABCEC1005EBD41 /* sound.h.1 */; };
+		229196BA13ABCFB6005EBD41 /* sound.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968A13ABCEC1005EBD41 /* sound.h */; };
 		229196BB13ABCFB6005EBD41 /* terrain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968D13ABCEC1005EBD41 /* terrain.h */; };
 		229196BC13ABCFB6005EBD41 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968E13ABCEC1005EBD41 /* timer.h */; };
 		229196BD13ABCFB6005EBD41 /* track.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968F13ABCEC1005EBD41 /* track.h */; };
@@ -83,11 +81,12 @@
 		229196FB13ABEC0A005EBD41 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229195F913ABCDEC005EBD41 /* AppKit.framework */; };
 		229196FD13ABEFD5005EBD41 /* GLExtensionWrangler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */; };
 		229196FE13ABEFFA005EBD41 /* GLExtensionWrangler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */; };
-		2291970113ABF21B005EBD41 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 229196FF13ABF215005EBD41 /* sound.cpp */; };
-		2291970213ABF21B005EBD41 /* sound.cpp.1 in Resources */ = {isa = PBXBuildFile; fileRef = 2291970013ABF218005EBD41 /* sound.cpp.1 */; };
+		2291970113ABF21B005EBD41 /* sound.cpp.openal in Sources */ = {isa = PBXBuildFile; fileRef = 229196FF13ABF215005EBD41 /* sound.cpp.openal */; };
+		2291970213ABF21B005EBD41 /* sound.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 2291970013ABF218005EBD41 /* sound.cpp */; };
 		2291970E13ABF5F2005EBD41 /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2291970D13ABF5F2005EBD41 /* SDL_net.framework */; };
 		2291970F13ABF603005EBD41 /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2291970D13ABF5F2005EBD41 /* SDL_net.framework */; };
 		22C729B913ACE0DA00B978EF /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22C729B813ACE0DA00B978EF /* Readme.rtf */; };
+		22C729BB13ACF04C00B978EF /* replay.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C729BA13ACF04B00B978EF /* replay.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,13 +166,11 @@
 		2291968313ABCEC1005EBD41 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
 		2291968413ABCEC1005EBD41 /* particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particles.h; sourceTree = "<group>"; };
 		2291968513ABCEC1005EBD41 /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
-		2291968613ABCEC1005EBD41 /* replay.h.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = replay.h.1; sourceTree = "<group>"; };
-		2291968713ABCEC1005EBD41 /* replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replay.h; sourceTree = "<group>"; };
-		2291968813ABCEC1005EBD41 /* SConscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SConscript; sourceTree = "<group>"; };
+		2291968713ABCEC1005EBD41 /* replay.h.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = replay.h.bak; sourceTree = "<group>"; };
 		2291968913ABCEC1005EBD41 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
-		2291968A13ABCEC1005EBD41 /* sound.h.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = sound.h.1; sourceTree = "<group>"; };
+		2291968A13ABCEC1005EBD41 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
 		2291968B13ABCEC1005EBD41 /* sound.h.fmod */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.h.fmod; sourceTree = "<group>"; };
-		2291968C13ABCEC1005EBD41 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		2291968C13ABCEC1005EBD41 /* sound.h.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.h.openal; sourceTree = "<group>"; };
 		2291968D13ABCEC1005EBD41 /* terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = terrain.h; sourceTree = "<group>"; };
 		2291968E13ABCEC1005EBD41 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
 		2291968F13ABCEC1005EBD41 /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = track.h; sourceTree = "<group>"; };
@@ -185,11 +182,12 @@
 		229196CF13ABDB28005EBD41 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
 		229196F713ABEBE2005EBD41 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
 		229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLExtensionWrangler.framework; sourceTree = "<group>"; };
-		229196FF13ABF215005EBD41 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
-		2291970013ABF218005EBD41 /* sound.cpp.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = sound.cpp.1; sourceTree = "<group>"; };
+		229196FF13ABF215005EBD41 /* sound.cpp.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.cpp.openal; sourceTree = "<group>"; };
+		2291970013ABF218005EBD41 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
 		2291970313ABF2BC005EBD41 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		2291970D13ABF5F2005EBD41 /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_net.framework; sourceTree = "<group>"; };
 		22C729B813ACE0DA00B978EF /* Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = SOURCE_ROOT; };
+		22C729BA13ACF04B00B978EF /* replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -287,9 +285,9 @@
 				2291964013ABCEB3005EBD41 /* replay.cpp.bak */,
 				2291964113ABCEB3005EBD41 /* SConscript */,
 				2291964213ABCEB3005EBD41 /* settings.cpp */,
-				229196FF13ABF215005EBD41 /* sound.cpp */,
-				2291970013ABF218005EBD41 /* sound.cpp.1 */,
+				2291970013ABF218005EBD41 /* sound.cpp */,
 				2291964413ABCEB3005EBD41 /* sound.cpp.fmod */,
+				229196FF13ABF215005EBD41 /* sound.cpp.openal */,
 				2291964613ABCEB3005EBD41 /* terrain.cpp */,
 				2291964713ABCEB3005EBD41 /* timer.cpp */,
 				2291964813ABCEB3005EBD41 /* track.cpp */,
@@ -327,13 +325,12 @@
 				2291968313ABCEC1005EBD41 /* objects.h */,
 				2291968413ABCEC1005EBD41 /* particles.h */,
 				2291968513ABCEC1005EBD41 /* quat.h */,
-				2291968613ABCEC1005EBD41 /* replay.h.1 */,
-				2291968713ABCEC1005EBD41 /* replay.h */,
-				2291968813ABCEC1005EBD41 /* SConscript */,
+				22C729BA13ACF04B00B978EF /* replay.h */,
+				2291968713ABCEC1005EBD41 /* replay.h.bak */,
 				2291968913ABCEC1005EBD41 /* settings.h */,
-				2291968A13ABCEC1005EBD41 /* sound.h.1 */,
+				2291968A13ABCEC1005EBD41 /* sound.h */,
 				2291968B13ABCEC1005EBD41 /* sound.h.fmod */,
-				2291968C13ABCEC1005EBD41 /* sound.h */,
+				2291968C13ABCEC1005EBD41 /* sound.h.openal */,
 				2291968D13ABCEC1005EBD41 /* terrain.h */,
 				2291968E13ABCEC1005EBD41 /* timer.h */,
 				2291968F13ABCEC1005EBD41 /* track.h */,
@@ -386,9 +383,8 @@
 				229196B513ABCFB5005EBD41 /* objects.h in Headers */,
 				229196B613ABCFB5005EBD41 /* particles.h in Headers */,
 				229196B713ABCFB5005EBD41 /* quat.h in Headers */,
-				229196B813ABCFB6005EBD41 /* replay.h.1 in Headers */,
 				229196B913ABCFB6005EBD41 /* settings.h in Headers */,
-				229196BA13ABCFB6005EBD41 /* sound.h.1 in Headers */,
+				229196BA13ABCFB6005EBD41 /* sound.h in Headers */,
 				229196BB13ABCFB6005EBD41 /* terrain.h in Headers */,
 				229196BC13ABCFB6005EBD41 /* timer.h in Headers */,
 				229196BD13ABCFB6005EBD41 /* track.h in Headers */,
@@ -396,6 +392,7 @@
 				229196BF13ABCFB6005EBD41 /* utility.h in Headers */,
 				229196C013ABCFB6005EBD41 /* vamosworld.h in Headers */,
 				229196C113ABCFB6005EBD41 /* weather.h in Headers */,
+				22C729BB13ACF04C00B978EF /* replay.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,11 +448,10 @@
 				2291966213ABCEB3005EBD41 /* replay.cpp.bak in Resources */,
 				2291966313ABCEB3005EBD41 /* SConscript in Resources */,
 				2291966613ABCEB3005EBD41 /* sound.cpp.fmod in Resources */,
-				2291969413ABCEC1005EBD41 /* replay.h in Resources */,
-				2291969513ABCEC1005EBD41 /* SConscript in Resources */,
+				2291969413ABCEC1005EBD41 /* replay.h.bak in Resources */,
 				2291969613ABCEC1005EBD41 /* sound.h.fmod in Resources */,
-				2291969713ABCEC1005EBD41 /* sound.h in Resources */,
-				2291970213ABF21B005EBD41 /* sound.cpp.1 in Resources */,
+				2291969713ABCEC1005EBD41 /* sound.h.openal in Resources */,
+				2291970213ABF21B005EBD41 /* sound.cpp in Resources */,
 				22C729B913ACE0DA00B978EF /* Readme.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +492,7 @@
 				2291966C13ABCEB3005EBD41 /* utility.cpp in Sources */,
 				2291966D13ABCEB3005EBD41 /* vamosworld.cc in Sources */,
 				2291966E13ABCEB3005EBD41 /* weather.cpp in Sources */,
-				2291970113ABF21B005EBD41 /* sound.cpp in Sources */,
+				2291970113ABF21B005EBD41 /* sound.cpp.openal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
