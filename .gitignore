@@ -1,0 +1,7 @@
+build/
+osx/build/
+.DS_Store
+osx/.DS_Store
+source/.DS_Store
+osx/trackeditor.xcodeproj/project.xcworkspace
+osx/trackeditor.xcodeproj/xcuserdata/
