@@ -25,10 +25,20 @@
 #ifndef _NET_H
 
 #include <stdio.h>			// Header File For Standard Input/Output
+#include <SDL/SDL.h>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <SDL_image/SDL_image.h>
+#include <SDL_net/SDL_net.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
+#include <SDL/SDL_net.h>
+#endif
+
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -38,8 +48,6 @@
 #include "replay.h"
 
 #include "globals.h"
-
-#include <SDL/SDL_net.h>
 
 using namespace std;
 

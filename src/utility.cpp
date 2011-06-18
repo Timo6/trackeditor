@@ -24,7 +24,15 @@
 
 #define GL_GLEXT_PROTOTYPES
 
-#ifdef _WIN32
+#ifdef __APPLE__
+//#define GL_GLEXT_PROTOTYPES
+//#include <OpenGL/glext.h>
+//#include <OpenGL/glut.h>
+//#include <OpenGL/wglext.h>
+//#include <OpenGL/glprocs.h>
+#include <GLExtensionWrangler/glew.h>
+#endif
+#ifdef __WIN32
 //#define GL_GLEXT_PROTOTYPES
 //#include <GL/glext.h>
 //#include <GL/glut.h>

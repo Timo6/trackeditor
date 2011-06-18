@@ -28,11 +28,20 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <SDL/SDL.h>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <OpenGL/glext.h>
+#include <SDL_image/SDL_image.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glext.h>
-#include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
+#endif
+
 #include <math.h>
 #include <string>
 #include <fstream>

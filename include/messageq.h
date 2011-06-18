@@ -1,9 +1,16 @@
 #ifndef _MESSAGEQ_H
 
 #include <stdio.h>			// Header File For Standard Input/Output
+#include <SDL/SDL.h>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <SDL/SDL.h>
+#endif
+
 #include <string>
 #include <iostream>
 #include <fstream>

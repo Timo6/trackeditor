@@ -1,15 +1,23 @@
 #ifndef _TREES_H
 
 #include <stdio.h>			// Header File For Standard Input/Output
+#include <SDL/SDL.h>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <SDL_image/SDL_image.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
+#endif
+
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <cmath>
-#include <cassert>
+#include <cassert
 
 //#include "terrain.h"
 #include "utility.h"

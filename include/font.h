@@ -25,9 +25,16 @@
 #ifndef _FONT_H
 
 #include <stdio.h>
+#include <SDL/SDL.h>
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
-#include <SDL/SDL.h>
+#endif
+
 #include <string>
 #include <iostream>
 #include <fstream>

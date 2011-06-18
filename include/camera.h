@@ -1,13 +1,21 @@
 #ifndef _CAMERA_H
 
 #include <stdio.h>			// Header File For Standard Input/Output
+
+#ifdef __APPLE__
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#else
 #include <GL/gl.h>
 #include <GL/glu.h>
+#endif
+
 #include <string>
 #include <iostream>
 #include <fstream>
 #include <cmath>
 #include <cassert>
+
 //#include "coldet.h"			// Header File For Collision Detection Library
 //#include "mesh.h"
 #include "quat.h"
