@@ -7,86 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2291964D13ABCEB3005EBD41 /* backdrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291962B13ABCEB3005EBD41 /* backdrop.cpp */; };
-		2291964E13ABCEB3005EBD41 /* bezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291962C13ABCEB3005EBD41 /* bezier.cpp */; };
-		2291964F13ABCEB3005EBD41 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291962D13ABCEB3005EBD41 /* camera.cpp */; };
-		2291965013ABCEB3005EBD41 /* configfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291962E13ABCEB3005EBD41 /* configfile.cpp */; };
-		2291965113ABCEB3005EBD41 /* controls.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2291962F13ABCEB3005EBD41 /* controls.cc */; };
-		2291965213ABCEB3005EBD41 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963013ABCEB3005EBD41 /* font.cpp */; };
-		2291965313ABCEB3005EBD41 /* gamestate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963113ABCEB3005EBD41 /* gamestate.cpp */; };
-		2291965413ABCEB3005EBD41 /* joepack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963213ABCEB3005EBD41 /* joepack.cpp */; };
-		2291965513ABCEB3005EBD41 /* keyman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963313ABCEB3005EBD41 /* keyman.cpp */; };
-		2291965613ABCEB3005EBD41 /* logo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963413ABCEB3005EBD41 /* logo.cpp */; };
-		2291965713ABCEB3005EBD41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963513ABCEB3005EBD41 /* main.cpp */; };
-		2291965813ABCEB3005EBD41 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963613ABCEB3005EBD41 /* menu.cpp */; };
-		2291965913ABCEB3005EBD41 /* messageq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963713ABCEB3005EBD41 /* messageq.cpp */; };
-		2291965A13ABCEB3005EBD41 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963813ABCEB3005EBD41 /* model.cpp */; };
-		2291965B13ABCEB3005EBD41 /* mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963913ABCEB3005EBD41 /* mouse.cpp */; };
-		2291965C13ABCEB3005EBD41 /* multiplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963A13ABCEB3005EBD41 /* multiplay.cpp */; };
-		2291965D13ABCEB3005EBD41 /* net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963B13ABCEB3005EBD41 /* net.cpp */; };
-		2291965E13ABCEB3005EBD41 /* objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963C13ABCEB3005EBD41 /* objects.cpp */; };
-		2291965F13ABCEB3005EBD41 /* particles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963D13ABCEB3005EBD41 /* particles.cpp */; };
-		2291966013ABCEB3005EBD41 /* quat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963E13ABCEB3005EBD41 /* quat.cpp */; };
-		2291966113ABCEB3005EBD41 /* replay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291963F13ABCEB3005EBD41 /* replay.cpp */; };
-		2291966213ABCEB3005EBD41 /* replay.cpp.bak in Resources */ = {isa = PBXBuildFile; fileRef = 2291964013ABCEB3005EBD41 /* replay.cpp.bak */; };
-		2291966313ABCEB3005EBD41 /* SConscript in Resources */ = {isa = PBXBuildFile; fileRef = 2291964113ABCEB3005EBD41 /* SConscript */; };
-		2291966413ABCEB3005EBD41 /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964213ABCEB3005EBD41 /* settings.cpp */; };
-		2291966613ABCEB3005EBD41 /* sound.cpp.fmod in Resources */ = {isa = PBXBuildFile; fileRef = 2291964413ABCEB3005EBD41 /* sound.cpp.fmod */; };
-		2291966813ABCEB3005EBD41 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964613ABCEB3005EBD41 /* terrain.cpp */; };
-		2291966913ABCEB3005EBD41 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964713ABCEB3005EBD41 /* timer.cpp */; };
-		2291966A13ABCEB3005EBD41 /* track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964813ABCEB3005EBD41 /* track.cpp */; };
-		2291966B13ABCEB3005EBD41 /* trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964913ABCEB3005EBD41 /* trees.cpp */; };
-		2291966C13ABCEB3005EBD41 /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964A13ABCEB3005EBD41 /* utility.cpp */; };
-		2291966D13ABCEB3005EBD41 /* vamosworld.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2291964B13ABCEB3005EBD41 /* vamosworld.cc */; };
-		2291966E13ABCEB3005EBD41 /* weather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2291964C13ABCEB3005EBD41 /* weather.cpp */; };
-		2291969413ABCEC1005EBD41 /* replay.h.bak in Resources */ = {isa = PBXBuildFile; fileRef = 2291968713ABCEC1005EBD41 /* replay.h.bak */; };
-		2291969613ABCEC1005EBD41 /* sound.h.fmod in Resources */ = {isa = PBXBuildFile; fileRef = 2291968B13ABCEC1005EBD41 /* sound.h.fmod */; };
-		2291969713ABCEC1005EBD41 /* sound.h.openal in Resources */ = {isa = PBXBuildFile; fileRef = 2291968C13ABCEC1005EBD41 /* sound.h.openal */; };
-		229196A213ABCFB5005EBD41 /* backdrop.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967013ABCEC1005EBD41 /* backdrop.h */; };
-		229196A313ABCFB5005EBD41 /* bezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967113ABCEC1005EBD41 /* bezier.h */; };
-		229196A413ABCFB5005EBD41 /* camera.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967213ABCEC1005EBD41 /* camera.h */; };
-		229196A513ABCFB5005EBD41 /* config_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967313ABCEC1005EBD41 /* config_mac.h */; };
-		229196A613ABCFB5005EBD41 /* configfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967413ABCEC1005EBD41 /* configfile.h */; };
-		229196A713ABCFB5005EBD41 /* controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967513ABCEC1005EBD41 /* controls.h */; };
-		229196A813ABCFB5005EBD41 /* endian_utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967613ABCEC1005EBD41 /* endian_utility.h */; };
-		229196A913ABCFB5005EBD41 /* font.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967713ABCEC1005EBD41 /* font.h */; };
-		229196AA13ABCFB5005EBD41 /* gamestate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967813ABCEC1005EBD41 /* gamestate.h */; };
-		229196AB13ABCFB5005EBD41 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967913ABCEC1005EBD41 /* globals.h */; };
-		229196AC13ABCFB5005EBD41 /* joepack.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967A13ABCEC1005EBD41 /* joepack.h */; };
-		229196AD13ABCFB5005EBD41 /* keyman.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967B13ABCEC1005EBD41 /* keyman.h */; };
-		229196AE13ABCFB5005EBD41 /* logo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967C13ABCEC1005EBD41 /* logo.h */; };
-		229196AF13ABCFB5005EBD41 /* menu.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967D13ABCEC1005EBD41 /* menu.h */; };
-		229196B013ABCFB5005EBD41 /* messageq.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967E13ABCEC1005EBD41 /* messageq.h */; };
-		229196B113ABCFB5005EBD41 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291967F13ABCEC1005EBD41 /* model.h */; };
-		229196B213ABCFB5005EBD41 /* mouse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968013ABCEC1005EBD41 /* mouse.h */; };
-		229196B313ABCFB5005EBD41 /* multiplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968113ABCEC1005EBD41 /* multiplay.h */; };
-		229196B413ABCFB5005EBD41 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968213ABCEC1005EBD41 /* net.h */; };
-		229196B513ABCFB5005EBD41 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968313ABCEC1005EBD41 /* objects.h */; };
-		229196B613ABCFB5005EBD41 /* particles.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968413ABCEC1005EBD41 /* particles.h */; };
-		229196B713ABCFB5005EBD41 /* quat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968513ABCEC1005EBD41 /* quat.h */; };
-		229196B913ABCFB6005EBD41 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968913ABCEC1005EBD41 /* settings.h */; };
-		229196BA13ABCFB6005EBD41 /* sound.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968A13ABCEC1005EBD41 /* sound.h */; };
-		229196BB13ABCFB6005EBD41 /* terrain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968D13ABCEC1005EBD41 /* terrain.h */; };
-		229196BC13ABCFB6005EBD41 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968E13ABCEC1005EBD41 /* timer.h */; };
-		229196BD13ABCFB6005EBD41 /* track.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291968F13ABCEC1005EBD41 /* track.h */; };
-		229196BE13ABCFB6005EBD41 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291969013ABCEC1005EBD41 /* trees.h */; };
-		229196BF13ABCFB6005EBD41 /* utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291969113ABCEC1005EBD41 /* utility.h */; };
-		229196C013ABCFB6005EBD41 /* vamosworld.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291969213ABCEC1005EBD41 /* vamosworld.h */; };
-		229196C113ABCFB6005EBD41 /* weather.h in Headers */ = {isa = PBXBuildFile; fileRef = 2291969313ABCEC1005EBD41 /* weather.h */; };
 		229196CC13ABD710005EBD41 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229196CB13ABD70E005EBD41 /* OpenGL.framework */; };
-		229196D113ABDB59005EBD41 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229196CF13ABDB28005EBD41 /* SDL.framework */; };
-		229196F813ABEBE2005EBD41 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229196F713ABEBE2005EBD41 /* SDL_image.framework */; };
-		229196F913ABEBF4005EBD41 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229196CF13ABDB28005EBD41 /* SDL.framework */; };
-		229196FA13ABEBFA005EBD41 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229196F713ABEBE2005EBD41 /* SDL_image.framework */; };
 		229196FB13ABEC0A005EBD41 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229195F913ABCDEC005EBD41 /* AppKit.framework */; };
-		229196FD13ABEFD5005EBD41 /* GLExtensionWrangler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */; };
-		229196FE13ABEFFA005EBD41 /* GLExtensionWrangler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */; };
-		2291970113ABF21B005EBD41 /* sound.cpp.openal in Sources */ = {isa = PBXBuildFile; fileRef = 229196FF13ABF215005EBD41 /* sound.cpp.openal */; };
-		2291970213ABF21B005EBD41 /* sound.cpp in Resources */ = {isa = PBXBuildFile; fileRef = 2291970013ABF218005EBD41 /* sound.cpp */; };
-		2291970E13ABF5F2005EBD41 /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2291970D13ABF5F2005EBD41 /* SDL_net.framework */; };
-		2291970F13ABF603005EBD41 /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2291970D13ABF5F2005EBD41 /* SDL_net.framework */; };
 		22C729B913ACE0DA00B978EF /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22C729B813ACE0DA00B978EF /* Readme.rtf */; };
-		22C729BB13ACF04C00B978EF /* replay.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C729BA13ACF04B00B978EF /* replay.h */; };
+		F54D290D14044FEE00EC9779 /* backdrop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28EB14044FEE00EC9779 /* backdrop.cpp */; };
+		F54D290E14044FEE00EC9779 /* bezier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28EC14044FEE00EC9779 /* bezier.cpp */; };
+		F54D290F14044FEE00EC9779 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28ED14044FEE00EC9779 /* camera.cpp */; };
+		F54D291014044FEE00EC9779 /* configfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28EE14044FEE00EC9779 /* configfile.cpp */; };
+		F54D291114044FEE00EC9779 /* controls.cc in Sources */ = {isa = PBXBuildFile; fileRef = F54D28EF14044FEE00EC9779 /* controls.cc */; };
+		F54D291214044FEE00EC9779 /* font.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F014044FEE00EC9779 /* font.cpp */; };
+		F54D291314044FEE00EC9779 /* gamestate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F114044FEE00EC9779 /* gamestate.cpp */; };
+		F54D291414044FEE00EC9779 /* joepack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F214044FEE00EC9779 /* joepack.cpp */; };
+		F54D291514044FEE00EC9779 /* keyman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F314044FEE00EC9779 /* keyman.cpp */; };
+		F54D291614044FEE00EC9779 /* logo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F414044FEE00EC9779 /* logo.cpp */; };
+		F54D291714044FEE00EC9779 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F514044FEE00EC9779 /* main.cpp */; };
+		F54D291814044FEE00EC9779 /* menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F614044FEE00EC9779 /* menu.cpp */; };
+		F54D291914044FEE00EC9779 /* messageq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F714044FEE00EC9779 /* messageq.cpp */; };
+		F54D291A14044FEE00EC9779 /* model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F814044FEE00EC9779 /* model.cpp */; };
+		F54D291B14044FEE00EC9779 /* mouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28F914044FEE00EC9779 /* mouse.cpp */; };
+		F54D291C14044FEE00EC9779 /* multiplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FA14044FEE00EC9779 /* multiplay.cpp */; };
+		F54D291D14044FEE00EC9779 /* net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FB14044FEE00EC9779 /* net.cpp */; };
+		F54D291E14044FEE00EC9779 /* objects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FC14044FEE00EC9779 /* objects.cpp */; };
+		F54D291F14044FEE00EC9779 /* particles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FD14044FEE00EC9779 /* particles.cpp */; };
+		F54D292014044FEE00EC9779 /* quat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FE14044FEE00EC9779 /* quat.cpp */; };
+		F54D292114044FEE00EC9779 /* replay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D28FF14044FEE00EC9779 /* replay.cpp */; };
+		F54D292214044FEE00EC9779 /* replay.cpp.bak in Resources */ = {isa = PBXBuildFile; fileRef = F54D290014044FEE00EC9779 /* replay.cpp.bak */; };
+		F54D292414044FEE00EC9779 /* settings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290214044FEE00EC9779 /* settings.cpp */; };
+		F54D292514044FEE00EC9779 /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290314044FEE00EC9779 /* sound.cpp */; };
+		F54D292614044FEE00EC9779 /* sound.cpp.fmod in Resources */ = {isa = PBXBuildFile; fileRef = F54D290414044FEE00EC9779 /* sound.cpp.fmod */; };
+		F54D292714044FEE00EC9779 /* sound.cpp.openal in Resources */ = {isa = PBXBuildFile; fileRef = F54D290514044FEE00EC9779 /* sound.cpp.openal */; };
+		F54D292814044FEE00EC9779 /* terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290614044FEE00EC9779 /* terrain.cpp */; };
+		F54D292914044FEE00EC9779 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290714044FEE00EC9779 /* timer.cpp */; };
+		F54D292A14044FEE00EC9779 /* track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290814044FEE00EC9779 /* track.cpp */; };
+		F54D292B14044FEE00EC9779 /* trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290914044FEE00EC9779 /* trees.cpp */; };
+		F54D292C14044FEE00EC9779 /* utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290A14044FEE00EC9779 /* utility.cpp */; };
+		F54D292D14044FEE00EC9779 /* vamosworld.cc in Sources */ = {isa = PBXBuildFile; fileRef = F54D290B14044FEE00EC9779 /* vamosworld.cc */; };
+		F54D292E14044FEE00EC9779 /* weather.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D290C14044FEE00EC9779 /* weather.cpp */; };
+		F54D29531404500E00EC9779 /* backdrop.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D292F1404500E00EC9779 /* backdrop.h */; };
+		F54D29541404500E00EC9779 /* bezier.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29301404500E00EC9779 /* bezier.h */; };
+		F54D29551404500E00EC9779 /* camera.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29311404500E00EC9779 /* camera.h */; };
+		F54D29561404500E00EC9779 /* config_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29321404500E00EC9779 /* config_mac.h */; };
+		F54D29571404500E00EC9779 /* configfile.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29331404500E00EC9779 /* configfile.h */; };
+		F54D29581404500E00EC9779 /* controls.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29341404500E00EC9779 /* controls.h */; };
+		F54D29591404500E00EC9779 /* endian_utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29351404500E00EC9779 /* endian_utility.h */; };
+		F54D295A1404500E00EC9779 /* font.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29361404500E00EC9779 /* font.h */; };
+		F54D295B1404500E00EC9779 /* gamestate.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29371404500E00EC9779 /* gamestate.h */; };
+		F54D295C1404500E00EC9779 /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29381404500E00EC9779 /* globals.h */; };
+		F54D295D1404500E00EC9779 /* joepack.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29391404500E00EC9779 /* joepack.h */; };
+		F54D295E1404500E00EC9779 /* keyman.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293A1404500E00EC9779 /* keyman.h */; };
+		F54D295F1404500E00EC9779 /* logo.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293B1404500E00EC9779 /* logo.h */; };
+		F54D29601404500E00EC9779 /* menu.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293C1404500E00EC9779 /* menu.h */; };
+		F54D29611404500E00EC9779 /* messageq.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293D1404500E00EC9779 /* messageq.h */; };
+		F54D29621404500E00EC9779 /* model.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293E1404500E00EC9779 /* model.h */; };
+		F54D29631404500E00EC9779 /* mouse.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D293F1404500E00EC9779 /* mouse.h */; };
+		F54D29641404500E00EC9779 /* multiplay.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29401404500E00EC9779 /* multiplay.h */; };
+		F54D29651404500E00EC9779 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29411404500E00EC9779 /* net.h */; };
+		F54D29661404500E00EC9779 /* objects.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29421404500E00EC9779 /* objects.h */; };
+		F54D29671404500E00EC9779 /* particles.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29431404500E00EC9779 /* particles.h */; };
+		F54D29681404500E00EC9779 /* quat.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29441404500E00EC9779 /* quat.h */; };
+		F54D29691404500E00EC9779 /* replay.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29451404500E00EC9779 /* replay.h */; };
+		F54D296A1404500E00EC9779 /* replay.h.bak in Resources */ = {isa = PBXBuildFile; fileRef = F54D29461404500E00EC9779 /* replay.h.bak */; };
+		F54D296C1404500E00EC9779 /* settings.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29481404500E00EC9779 /* settings.h */; };
+		F54D296D1404500E00EC9779 /* sound.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29491404500E00EC9779 /* sound.h */; };
+		F54D296E1404500E00EC9779 /* sound.h.fmod in Resources */ = {isa = PBXBuildFile; fileRef = F54D294A1404500E00EC9779 /* sound.h.fmod */; };
+		F54D296F1404500E00EC9779 /* sound.h.openal in Resources */ = {isa = PBXBuildFile; fileRef = F54D294B1404500E00EC9779 /* sound.h.openal */; };
+		F54D29701404500E00EC9779 /* terrain.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D294C1404500E00EC9779 /* terrain.h */; };
+		F54D29711404500E00EC9779 /* timer.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D294D1404500E00EC9779 /* timer.h */; };
+		F54D29721404500E00EC9779 /* track.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D294E1404500E00EC9779 /* track.h */; };
+		F54D29731404500E00EC9779 /* trees.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D294F1404500E00EC9779 /* trees.h */; };
+		F54D29741404500E00EC9779 /* utility.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29501404500E00EC9779 /* utility.h */; };
+		F54D29751404500E00EC9779 /* vamosworld.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29511404500E00EC9779 /* vamosworld.h */; };
+		F54D29761404500E00EC9779 /* weather.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D29521404500E00EC9779 /* weather.h */; };
+		F54D29781404523700EC9779 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D29771404523700EC9779 /* SDL.framework */; };
+		F54D297E1404527100EC9779 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D297D1404527100EC9779 /* SDL_image.framework */; };
+		F54D2980140452AA00EC9779 /* SDL_net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D297F140452AA00EC9779 /* SDL_net.framework */; };
+		F54D29821404562700EC9779 /* vdrift.icns in Resources */ = {isa = PBXBuildFile; fileRef = F54D29811404562700EC9779 /* vdrift.icns */; };
+		F54D29831404572000EC9779 /* SDL_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F54D297D1404527100EC9779 /* SDL_image.framework */; };
+		F54D29841404572000EC9779 /* SDL_net.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F54D297F140452AA00EC9779 /* SDL_net.framework */; };
+		F54D29851404572000EC9779 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F54D29771404523700EC9779 /* SDL.framework */; };
+		F5AEB0531404F82400374DB2 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AEB0521404F82400374DB2 /* OpenAL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,98 +95,93 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				229196D113ABDB59005EBD41 /* SDL.framework in CopyFiles */,
-				229196FA13ABEBFA005EBD41 /* SDL_image.framework in CopyFiles */,
-				229196FE13ABEFFA005EBD41 /* GLExtensionWrangler.framework in CopyFiles */,
-				2291970F13ABF603005EBD41 /* SDL_net.framework in CopyFiles */,
+				F54D29831404572000EC9779 /* SDL_image.framework in CopyFiles */,
+				F54D29841404572000EC9779 /* SDL_net.framework in CopyFiles */,
+				F54D29851404572000EC9779 /* SDL.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		229195F213ABCDEB005EBD41 /* trackeditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackeditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		229195F613ABCDEC005EBD41 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		229195F213ABCDEB005EBD41 /* Trackeditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackeditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229195F913ABCDEC005EBD41 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		229195FA13ABCDEC005EBD41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		229195FB13ABCDEC005EBD41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2291962413ABCEA5005EBD41 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		2291962B13ABCEB3005EBD41 /* backdrop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backdrop.cpp; sourceTree = "<group>"; };
-		2291962C13ABCEB3005EBD41 /* bezier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bezier.cpp; sourceTree = "<group>"; };
-		2291962D13ABCEB3005EBD41 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
-		2291962E13ABCEB3005EBD41 /* configfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = configfile.cpp; sourceTree = "<group>"; };
-		2291962F13ABCEB3005EBD41 /* controls.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controls.cc; sourceTree = "<group>"; };
-		2291963013ABCEB3005EBD41 /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
-		2291963113ABCEB3005EBD41 /* gamestate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gamestate.cpp; sourceTree = "<group>"; };
-		2291963213ABCEB3005EBD41 /* joepack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = joepack.cpp; sourceTree = "<group>"; };
-		2291963313ABCEB3005EBD41 /* keyman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keyman.cpp; sourceTree = "<group>"; };
-		2291963413ABCEB3005EBD41 /* logo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logo.cpp; sourceTree = "<group>"; };
-		2291963513ABCEB3005EBD41 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2291963613ABCEB3005EBD41 /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
-		2291963713ABCEB3005EBD41 /* messageq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = messageq.cpp; sourceTree = "<group>"; };
-		2291963813ABCEB3005EBD41 /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
-		2291963913ABCEB3005EBD41 /* mouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouse.cpp; sourceTree = "<group>"; };
-		2291963A13ABCEB3005EBD41 /* multiplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiplay.cpp; sourceTree = "<group>"; };
-		2291963B13ABCEB3005EBD41 /* net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = net.cpp; sourceTree = "<group>"; };
-		2291963C13ABCEB3005EBD41 /* objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = objects.cpp; sourceTree = "<group>"; };
-		2291963D13ABCEB3005EBD41 /* particles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particles.cpp; sourceTree = "<group>"; };
-		2291963E13ABCEB3005EBD41 /* quat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quat.cpp; sourceTree = "<group>"; };
-		2291963F13ABCEB3005EBD41 /* replay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = replay.cpp; sourceTree = "<group>"; };
-		2291964013ABCEB3005EBD41 /* replay.cpp.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = replay.cpp.bak; sourceTree = "<group>"; };
-		2291964113ABCEB3005EBD41 /* SConscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SConscript; sourceTree = "<group>"; };
-		2291964213ABCEB3005EBD41 /* settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
-		2291964413ABCEB3005EBD41 /* sound.cpp.fmod */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.cpp.fmod; sourceTree = "<group>"; };
-		2291964613ABCEB3005EBD41 /* terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = terrain.cpp; sourceTree = "<group>"; };
-		2291964713ABCEB3005EBD41 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
-		2291964813ABCEB3005EBD41 /* track.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = track.cpp; sourceTree = "<group>"; };
-		2291964913ABCEB3005EBD41 /* trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trees.cpp; sourceTree = "<group>"; };
-		2291964A13ABCEB3005EBD41 /* utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utility.cpp; sourceTree = "<group>"; };
-		2291964B13ABCEB3005EBD41 /* vamosworld.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vamosworld.cc; sourceTree = "<group>"; };
-		2291964C13ABCEB3005EBD41 /* weather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weather.cpp; sourceTree = "<group>"; };
-		2291967013ABCEC1005EBD41 /* backdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backdrop.h; sourceTree = "<group>"; };
-		2291967113ABCEC1005EBD41 /* bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bezier.h; sourceTree = "<group>"; };
-		2291967213ABCEC1005EBD41 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
-		2291967313ABCEC1005EBD41 /* config_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_mac.h; sourceTree = "<group>"; };
-		2291967413ABCEC1005EBD41 /* configfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configfile.h; sourceTree = "<group>"; };
-		2291967513ABCEC1005EBD41 /* controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = controls.h; sourceTree = "<group>"; };
-		2291967613ABCEC1005EBD41 /* endian_utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian_utility.h; sourceTree = "<group>"; };
-		2291967713ABCEC1005EBD41 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
-		2291967813ABCEC1005EBD41 /* gamestate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamestate.h; sourceTree = "<group>"; };
-		2291967913ABCEC1005EBD41 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
-		2291967A13ABCEC1005EBD41 /* joepack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = joepack.h; sourceTree = "<group>"; };
-		2291967B13ABCEC1005EBD41 /* keyman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyman.h; sourceTree = "<group>"; };
-		2291967C13ABCEC1005EBD41 /* logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logo.h; sourceTree = "<group>"; };
-		2291967D13ABCEC1005EBD41 /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = menu.h; sourceTree = "<group>"; };
-		2291967E13ABCEC1005EBD41 /* messageq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageq.h; sourceTree = "<group>"; };
-		2291967F13ABCEC1005EBD41 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
-		2291968013ABCEC1005EBD41 /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mouse.h; sourceTree = "<group>"; };
-		2291968113ABCEC1005EBD41 /* multiplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiplay.h; sourceTree = "<group>"; };
-		2291968213ABCEC1005EBD41 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
-		2291968313ABCEC1005EBD41 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
-		2291968413ABCEC1005EBD41 /* particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particles.h; sourceTree = "<group>"; };
-		2291968513ABCEC1005EBD41 /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
-		2291968713ABCEC1005EBD41 /* replay.h.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = replay.h.bak; sourceTree = "<group>"; };
-		2291968913ABCEC1005EBD41 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
-		2291968A13ABCEC1005EBD41 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
-		2291968B13ABCEC1005EBD41 /* sound.h.fmod */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.h.fmod; sourceTree = "<group>"; };
-		2291968C13ABCEC1005EBD41 /* sound.h.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.h.openal; sourceTree = "<group>"; };
-		2291968D13ABCEC1005EBD41 /* terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = terrain.h; sourceTree = "<group>"; };
-		2291968E13ABCEC1005EBD41 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
-		2291968F13ABCEC1005EBD41 /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = track.h; sourceTree = "<group>"; };
-		2291969013ABCEC1005EBD41 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
-		2291969113ABCEC1005EBD41 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
-		2291969213ABCEC1005EBD41 /* vamosworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vamosworld.h; sourceTree = "<group>"; };
-		2291969313ABCEC1005EBD41 /* weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weather.h; sourceTree = "<group>"; };
 		229196CB13ABD70E005EBD41 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		229196CF13ABDB28005EBD41 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
-		229196F713ABEBE2005EBD41 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
-		229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLExtensionWrangler.framework; sourceTree = "<group>"; };
-		229196FF13ABF215005EBD41 /* sound.cpp.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.cpp.openal; sourceTree = "<group>"; };
-		2291970013ABF218005EBD41 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
-		2291970313ABF2BC005EBD41 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		2291970D13ABF5F2005EBD41 /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_net.framework; sourceTree = "<group>"; };
 		22C729B813ACE0DA00B978EF /* Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = SOURCE_ROOT; };
-		22C729BA13ACF04B00B978EF /* replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = replay.h; sourceTree = "<group>"; };
+		F54D28EB14044FEE00EC9779 /* backdrop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backdrop.cpp; sourceTree = "<group>"; };
+		F54D28EC14044FEE00EC9779 /* bezier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bezier.cpp; sourceTree = "<group>"; };
+		F54D28ED14044FEE00EC9779 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		F54D28EE14044FEE00EC9779 /* configfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = configfile.cpp; sourceTree = "<group>"; };
+		F54D28EF14044FEE00EC9779 /* controls.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = controls.cc; sourceTree = "<group>"; };
+		F54D28F014044FEE00EC9779 /* font.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font.cpp; sourceTree = "<group>"; };
+		F54D28F114044FEE00EC9779 /* gamestate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gamestate.cpp; sourceTree = "<group>"; };
+		F54D28F214044FEE00EC9779 /* joepack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = joepack.cpp; sourceTree = "<group>"; };
+		F54D28F314044FEE00EC9779 /* keyman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = keyman.cpp; sourceTree = "<group>"; };
+		F54D28F414044FEE00EC9779 /* logo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logo.cpp; sourceTree = "<group>"; };
+		F54D28F514044FEE00EC9779 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F54D28F614044FEE00EC9779 /* menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = menu.cpp; sourceTree = "<group>"; };
+		F54D28F714044FEE00EC9779 /* messageq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = messageq.cpp; sourceTree = "<group>"; };
+		F54D28F814044FEE00EC9779 /* model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = model.cpp; sourceTree = "<group>"; };
+		F54D28F914044FEE00EC9779 /* mouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mouse.cpp; sourceTree = "<group>"; };
+		F54D28FA14044FEE00EC9779 /* multiplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = multiplay.cpp; sourceTree = "<group>"; };
+		F54D28FB14044FEE00EC9779 /* net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = net.cpp; sourceTree = "<group>"; };
+		F54D28FC14044FEE00EC9779 /* objects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = objects.cpp; sourceTree = "<group>"; };
+		F54D28FD14044FEE00EC9779 /* particles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particles.cpp; sourceTree = "<group>"; };
+		F54D28FE14044FEE00EC9779 /* quat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quat.cpp; sourceTree = "<group>"; };
+		F54D28FF14044FEE00EC9779 /* replay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = replay.cpp; sourceTree = "<group>"; };
+		F54D290014044FEE00EC9779 /* replay.cpp.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = replay.cpp.bak; sourceTree = "<group>"; };
+		F54D290214044FEE00EC9779 /* settings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = settings.cpp; sourceTree = "<group>"; };
+		F54D290314044FEE00EC9779 /* sound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sound.cpp; sourceTree = "<group>"; };
+		F54D290414044FEE00EC9779 /* sound.cpp.fmod */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.cpp.fmod; sourceTree = "<group>"; };
+		F54D290514044FEE00EC9779 /* sound.cpp.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sound.cpp.openal; sourceTree = "<group>"; };
+		F54D290614044FEE00EC9779 /* terrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = terrain.cpp; sourceTree = "<group>"; };
+		F54D290714044FEE00EC9779 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
+		F54D290814044FEE00EC9779 /* track.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = track.cpp; sourceTree = "<group>"; };
+		F54D290914044FEE00EC9779 /* trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = trees.cpp; sourceTree = "<group>"; };
+		F54D290A14044FEE00EC9779 /* utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utility.cpp; sourceTree = "<group>"; };
+		F54D290B14044FEE00EC9779 /* vamosworld.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vamosworld.cc; sourceTree = "<group>"; };
+		F54D290C14044FEE00EC9779 /* weather.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = weather.cpp; sourceTree = "<group>"; };
+		F54D292F1404500E00EC9779 /* backdrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = backdrop.h; path = ../include/backdrop.h; sourceTree = "<group>"; };
+		F54D29301404500E00EC9779 /* bezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bezier.h; path = ../include/bezier.h; sourceTree = "<group>"; };
+		F54D29311404500E00EC9779 /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = camera.h; path = ../include/camera.h; sourceTree = "<group>"; };
+		F54D29321404500E00EC9779 /* config_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config_mac.h; path = ../include/config_mac.h; sourceTree = "<group>"; };
+		F54D29331404500E00EC9779 /* configfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = configfile.h; path = ../include/configfile.h; sourceTree = "<group>"; };
+		F54D29341404500E00EC9779 /* controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = controls.h; path = ../include/controls.h; sourceTree = "<group>"; };
+		F54D29351404500E00EC9779 /* endian_utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endian_utility.h; path = ../include/endian_utility.h; sourceTree = "<group>"; };
+		F54D29361404500E00EC9779 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = font.h; path = ../include/font.h; sourceTree = "<group>"; };
+		F54D29371404500E00EC9779 /* gamestate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gamestate.h; path = ../include/gamestate.h; sourceTree = "<group>"; };
+		F54D29381404500E00EC9779 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = globals.h; path = ../include/globals.h; sourceTree = "<group>"; };
+		F54D29391404500E00EC9779 /* joepack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = joepack.h; path = ../include/joepack.h; sourceTree = "<group>"; };
+		F54D293A1404500E00EC9779 /* keyman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = keyman.h; path = ../include/keyman.h; sourceTree = "<group>"; };
+		F54D293B1404500E00EC9779 /* logo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logo.h; path = ../include/logo.h; sourceTree = "<group>"; };
+		F54D293C1404500E00EC9779 /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menu.h; path = ../include/menu.h; sourceTree = "<group>"; };
+		F54D293D1404500E00EC9779 /* messageq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = messageq.h; path = ../include/messageq.h; sourceTree = "<group>"; };
+		F54D293E1404500E00EC9779 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = model.h; path = ../include/model.h; sourceTree = "<group>"; };
+		F54D293F1404500E00EC9779 /* mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mouse.h; path = ../include/mouse.h; sourceTree = "<group>"; };
+		F54D29401404500E00EC9779 /* multiplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multiplay.h; path = ../include/multiplay.h; sourceTree = "<group>"; };
+		F54D29411404500E00EC9779 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = net.h; path = ../include/net.h; sourceTree = "<group>"; };
+		F54D29421404500E00EC9779 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objects.h; path = ../include/objects.h; sourceTree = "<group>"; };
+		F54D29431404500E00EC9779 /* particles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = particles.h; path = ../include/particles.h; sourceTree = "<group>"; };
+		F54D29441404500E00EC9779 /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = quat.h; path = ../include/quat.h; sourceTree = "<group>"; };
+		F54D29451404500E00EC9779 /* replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = replay.h; path = ../include/replay.h; sourceTree = "<group>"; };
+		F54D29461404500E00EC9779 /* replay.h.bak */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = replay.h.bak; path = ../include/replay.h.bak; sourceTree = "<group>"; };
+		F54D29481404500E00EC9779 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settings.h; path = ../include/settings.h; sourceTree = "<group>"; };
+		F54D29491404500E00EC9779 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = ../include/sound.h; sourceTree = "<group>"; };
+		F54D294A1404500E00EC9779 /* sound.h.fmod */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sound.h.fmod; path = ../include/sound.h.fmod; sourceTree = "<group>"; };
+		F54D294B1404500E00EC9779 /* sound.h.openal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = sound.h.openal; path = ../include/sound.h.openal; sourceTree = "<group>"; };
+		F54D294C1404500E00EC9779 /* terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = terrain.h; path = ../include/terrain.h; sourceTree = "<group>"; };
+		F54D294D1404500E00EC9779 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timer.h; path = ../include/timer.h; sourceTree = "<group>"; };
+		F54D294E1404500E00EC9779 /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = track.h; path = ../include/track.h; sourceTree = "<group>"; };
+		F54D294F1404500E00EC9779 /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trees.h; path = ../include/trees.h; sourceTree = "<group>"; };
+		F54D29501404500E00EC9779 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utility.h; path = ../include/utility.h; sourceTree = "<group>"; };
+		F54D29511404500E00EC9779 /* vamosworld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vamosworld.h; path = ../include/vamosworld.h; sourceTree = "<group>"; };
+		F54D29521404500E00EC9779 /* weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weather.h; path = ../include/weather.h; sourceTree = "<group>"; };
+		F54D29771404523700EC9779 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		F54D297D1404527100EC9779 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
+		F54D297F140452AA00EC9779 /* SDL_net.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_net.framework; sourceTree = "<group>"; };
+		F54D29811404562700EC9779 /* vdrift.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = vdrift.icns; sourceTree = SOURCE_ROOT; };
+		F5AEB0521404F82400374DB2 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,11 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				229196FB13ABEC0A005EBD41 /* AppKit.framework in Frameworks */,
+				F5AEB0531404F82400374DB2 /* OpenAL.framework in Frameworks */,
 				229196CC13ABD710005EBD41 /* OpenGL.framework in Frameworks */,
-				229196FD13ABEFD5005EBD41 /* GLExtensionWrangler.framework in Frameworks */,
-				229196F913ABEBF4005EBD41 /* SDL.framework in Frameworks */,
-				229196F813ABEBE2005EBD41 /* SDL_image.framework in Frameworks */,
-				2291970E13ABF5F2005EBD41 /* SDL_net.framework in Frameworks */,
+				F54D297E1404527100EC9779 /* SDL_image.framework in Frameworks */,
+				F54D2980140452AA00EC9779 /* SDL_net.framework in Frameworks */,
+				F54D29781404523700EC9779 /* SDL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,9 +204,8 @@
 		229195E713ABCDEA005EBD41 = {
 			isa = PBXGroup;
 			children = (
+				F54D28EA14044FEE00EC9779 /* src */,
 				229195FD13ABCDEC005EBD41 /* Resources */,
-				2291962A13ABCEB3005EBD41 /* src */,
-				2291966F13ABCEC1005EBD41 /* include */,
 				229195F513ABCDEB005EBD41 /* Frameworks */,
 				229195F313ABCDEB005EBD41 /* Products */,
 			);
@@ -221,7 +214,7 @@
 		229195F313ABCDEB005EBD41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				229195F213ABCDEB005EBD41 /* trackeditor.app */,
+				229195F213ABCDEB005EBD41 /* Trackeditor.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,7 +222,6 @@
 		229195F513ABCDEB005EBD41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				229195F613ABCDEC005EBD41 /* Cocoa.framework */,
 				229196C613ABD678005EBD41 /* Linked Frameworks */,
 				229195F813ABCDEC005EBD41 /* Other Frameworks */,
 			);
@@ -239,11 +231,9 @@
 		229195F813ABCDEC005EBD41 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2291970313ABF2BC005EBD41 /* OpenAL.framework */,
+				F5AEB0521404F82400374DB2 /* OpenAL.framework */,
 				229196CB13ABD70E005EBD41 /* OpenGL.framework */,
 				229195F913ABCDEC005EBD41 /* AppKit.framework */,
-				229195FA13ABCDEC005EBD41 /* CoreData.framework */,
-				229195FB13ABCDEC005EBD41 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -251,6 +241,7 @@
 		229195FD13ABCDEC005EBD41 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F54D29811404562700EC9779 /* vdrift.icns */,
 				2291962413ABCEA5005EBD41 /* Info.plist */,
 				22C729B813ACE0DA00B978EF /* Readme.rtf */,
 			);
@@ -258,100 +249,90 @@
 			path = trackeditor;
 			sourceTree = "<group>";
 		};
-		2291962A13ABCEB3005EBD41 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				2291962B13ABCEB3005EBD41 /* backdrop.cpp */,
-				2291962C13ABCEB3005EBD41 /* bezier.cpp */,
-				2291962D13ABCEB3005EBD41 /* camera.cpp */,
-				2291962E13ABCEB3005EBD41 /* configfile.cpp */,
-				2291962F13ABCEB3005EBD41 /* controls.cc */,
-				2291963013ABCEB3005EBD41 /* font.cpp */,
-				2291963113ABCEB3005EBD41 /* gamestate.cpp */,
-				2291963213ABCEB3005EBD41 /* joepack.cpp */,
-				2291963313ABCEB3005EBD41 /* keyman.cpp */,
-				2291963413ABCEB3005EBD41 /* logo.cpp */,
-				2291963513ABCEB3005EBD41 /* main.cpp */,
-				2291963613ABCEB3005EBD41 /* menu.cpp */,
-				2291963713ABCEB3005EBD41 /* messageq.cpp */,
-				2291963813ABCEB3005EBD41 /* model.cpp */,
-				2291963913ABCEB3005EBD41 /* mouse.cpp */,
-				2291963A13ABCEB3005EBD41 /* multiplay.cpp */,
-				2291963B13ABCEB3005EBD41 /* net.cpp */,
-				2291963C13ABCEB3005EBD41 /* objects.cpp */,
-				2291963D13ABCEB3005EBD41 /* particles.cpp */,
-				2291963E13ABCEB3005EBD41 /* quat.cpp */,
-				2291963F13ABCEB3005EBD41 /* replay.cpp */,
-				2291964013ABCEB3005EBD41 /* replay.cpp.bak */,
-				2291964113ABCEB3005EBD41 /* SConscript */,
-				2291964213ABCEB3005EBD41 /* settings.cpp */,
-				2291970013ABF218005EBD41 /* sound.cpp */,
-				2291964413ABCEB3005EBD41 /* sound.cpp.fmod */,
-				229196FF13ABF215005EBD41 /* sound.cpp.openal */,
-				2291964613ABCEB3005EBD41 /* terrain.cpp */,
-				2291964713ABCEB3005EBD41 /* timer.cpp */,
-				2291964813ABCEB3005EBD41 /* track.cpp */,
-				2291964913ABCEB3005EBD41 /* trees.cpp */,
-				2291964A13ABCEB3005EBD41 /* utility.cpp */,
-				2291964B13ABCEB3005EBD41 /* vamosworld.cc */,
-				2291964C13ABCEB3005EBD41 /* weather.cpp */,
-			);
-			name = src;
-			path = ../src;
-			sourceTree = "<group>";
-		};
-		2291966F13ABCEC1005EBD41 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				2291967013ABCEC1005EBD41 /* backdrop.h */,
-				2291967113ABCEC1005EBD41 /* bezier.h */,
-				2291967213ABCEC1005EBD41 /* camera.h */,
-				2291967313ABCEC1005EBD41 /* config_mac.h */,
-				2291967413ABCEC1005EBD41 /* configfile.h */,
-				2291967513ABCEC1005EBD41 /* controls.h */,
-				2291967613ABCEC1005EBD41 /* endian_utility.h */,
-				2291967713ABCEC1005EBD41 /* font.h */,
-				2291967813ABCEC1005EBD41 /* gamestate.h */,
-				2291967913ABCEC1005EBD41 /* globals.h */,
-				2291967A13ABCEC1005EBD41 /* joepack.h */,
-				2291967B13ABCEC1005EBD41 /* keyman.h */,
-				2291967C13ABCEC1005EBD41 /* logo.h */,
-				2291967D13ABCEC1005EBD41 /* menu.h */,
-				2291967E13ABCEC1005EBD41 /* messageq.h */,
-				2291967F13ABCEC1005EBD41 /* model.h */,
-				2291968013ABCEC1005EBD41 /* mouse.h */,
-				2291968113ABCEC1005EBD41 /* multiplay.h */,
-				2291968213ABCEC1005EBD41 /* net.h */,
-				2291968313ABCEC1005EBD41 /* objects.h */,
-				2291968413ABCEC1005EBD41 /* particles.h */,
-				2291968513ABCEC1005EBD41 /* quat.h */,
-				22C729BA13ACF04B00B978EF /* replay.h */,
-				2291968713ABCEC1005EBD41 /* replay.h.bak */,
-				2291968913ABCEC1005EBD41 /* settings.h */,
-				2291968A13ABCEC1005EBD41 /* sound.h */,
-				2291968B13ABCEC1005EBD41 /* sound.h.fmod */,
-				2291968C13ABCEC1005EBD41 /* sound.h.openal */,
-				2291968D13ABCEC1005EBD41 /* terrain.h */,
-				2291968E13ABCEC1005EBD41 /* timer.h */,
-				2291968F13ABCEC1005EBD41 /* track.h */,
-				2291969013ABCEC1005EBD41 /* trees.h */,
-				2291969113ABCEC1005EBD41 /* utility.h */,
-				2291969213ABCEC1005EBD41 /* vamosworld.h */,
-				2291969313ABCEC1005EBD41 /* weather.h */,
-			);
-			name = include;
-			path = ../include;
-			sourceTree = "<group>";
-		};
 		229196C613ABD678005EBD41 /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				229196FC13ABEFD5005EBD41 /* GLExtensionWrangler.framework */,
-				229196CF13ABDB28005EBD41 /* SDL.framework */,
-				229196F713ABEBE2005EBD41 /* SDL_image.framework */,
-				2291970D13ABF5F2005EBD41 /* SDL_net.framework */,
+				F54D297D1404527100EC9779 /* SDL_image.framework */,
+				F54D297F140452AA00EC9779 /* SDL_net.framework */,
+				F54D29771404523700EC9779 /* SDL.framework */,
 			);
 			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		F54D28EA14044FEE00EC9779 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F54D28EB14044FEE00EC9779 /* backdrop.cpp */,
+				F54D292F1404500E00EC9779 /* backdrop.h */,
+				F54D28EC14044FEE00EC9779 /* bezier.cpp */,
+				F54D29301404500E00EC9779 /* bezier.h */,
+				F54D28ED14044FEE00EC9779 /* camera.cpp */,
+				F54D29311404500E00EC9779 /* camera.h */,
+				F54D28EE14044FEE00EC9779 /* configfile.cpp */,
+				F54D29331404500E00EC9779 /* configfile.h */,
+				F54D29321404500E00EC9779 /* config_mac.h */,
+				F54D28EF14044FEE00EC9779 /* controls.cc */,
+				F54D29341404500E00EC9779 /* controls.h */,
+				F54D29351404500E00EC9779 /* endian_utility.h */,
+				F54D28F014044FEE00EC9779 /* font.cpp */,
+				F54D29361404500E00EC9779 /* font.h */,
+				F54D28F114044FEE00EC9779 /* gamestate.cpp */,
+				F54D29371404500E00EC9779 /* gamestate.h */,
+				F54D29381404500E00EC9779 /* globals.h */,
+				F54D28F214044FEE00EC9779 /* joepack.cpp */,
+				F54D29391404500E00EC9779 /* joepack.h */,
+				F54D28F314044FEE00EC9779 /* keyman.cpp */,
+				F54D293A1404500E00EC9779 /* keyman.h */,
+				F54D28F414044FEE00EC9779 /* logo.cpp */,
+				F54D293B1404500E00EC9779 /* logo.h */,
+				F54D28F514044FEE00EC9779 /* main.cpp */,
+				F54D28F614044FEE00EC9779 /* menu.cpp */,
+				F54D293C1404500E00EC9779 /* menu.h */,
+				F54D28F714044FEE00EC9779 /* messageq.cpp */,
+				F54D293D1404500E00EC9779 /* messageq.h */,
+				F54D28F814044FEE00EC9779 /* model.cpp */,
+				F54D293E1404500E00EC9779 /* model.h */,
+				F54D28F914044FEE00EC9779 /* mouse.cpp */,
+				F54D293F1404500E00EC9779 /* mouse.h */,
+				F54D28FA14044FEE00EC9779 /* multiplay.cpp */,
+				F54D29401404500E00EC9779 /* multiplay.h */,
+				F54D28FB14044FEE00EC9779 /* net.cpp */,
+				F54D29411404500E00EC9779 /* net.h */,
+				F54D28FC14044FEE00EC9779 /* objects.cpp */,
+				F54D29421404500E00EC9779 /* objects.h */,
+				F54D28FD14044FEE00EC9779 /* particles.cpp */,
+				F54D29431404500E00EC9779 /* particles.h */,
+				F54D28FE14044FEE00EC9779 /* quat.cpp */,
+				F54D29441404500E00EC9779 /* quat.h */,
+				F54D28FF14044FEE00EC9779 /* replay.cpp */,
+				F54D29451404500E00EC9779 /* replay.h */,
+				F54D290014044FEE00EC9779 /* replay.cpp.bak */,
+				F54D29461404500E00EC9779 /* replay.h.bak */,
+				F54D290214044FEE00EC9779 /* settings.cpp */,
+				F54D29481404500E00EC9779 /* settings.h */,
+				F54D290314044FEE00EC9779 /* sound.cpp */,
+				F54D29491404500E00EC9779 /* sound.h */,
+				F54D290414044FEE00EC9779 /* sound.cpp.fmod */,
+				F54D294A1404500E00EC9779 /* sound.h.fmod */,
+				F54D290514044FEE00EC9779 /* sound.cpp.openal */,
+				F54D294B1404500E00EC9779 /* sound.h.openal */,
+				F54D290614044FEE00EC9779 /* terrain.cpp */,
+				F54D294C1404500E00EC9779 /* terrain.h */,
+				F54D290714044FEE00EC9779 /* timer.cpp */,
+				F54D294D1404500E00EC9779 /* timer.h */,
+				F54D290814044FEE00EC9779 /* track.cpp */,
+				F54D294E1404500E00EC9779 /* track.h */,
+				F54D290914044FEE00EC9779 /* trees.cpp */,
+				F54D294F1404500E00EC9779 /* trees.h */,
+				F54D290A14044FEE00EC9779 /* utility.cpp */,
+				F54D29501404500E00EC9779 /* utility.h */,
+				F54D290B14044FEE00EC9779 /* vamosworld.cc */,
+				F54D29511404500E00EC9779 /* vamosworld.h */,
+				F54D290C14044FEE00EC9779 /* weather.cpp */,
+				F54D29521404500E00EC9779 /* weather.h */,
+			);
+			name = src;
+			path = ../src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,38 +342,38 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229196A213ABCFB5005EBD41 /* backdrop.h in Headers */,
-				229196A313ABCFB5005EBD41 /* bezier.h in Headers */,
-				229196A413ABCFB5005EBD41 /* camera.h in Headers */,
-				229196A513ABCFB5005EBD41 /* config_mac.h in Headers */,
-				229196A613ABCFB5005EBD41 /* configfile.h in Headers */,
-				229196A713ABCFB5005EBD41 /* controls.h in Headers */,
-				229196A813ABCFB5005EBD41 /* endian_utility.h in Headers */,
-				229196A913ABCFB5005EBD41 /* font.h in Headers */,
-				229196AA13ABCFB5005EBD41 /* gamestate.h in Headers */,
-				229196AB13ABCFB5005EBD41 /* globals.h in Headers */,
-				229196AC13ABCFB5005EBD41 /* joepack.h in Headers */,
-				229196AD13ABCFB5005EBD41 /* keyman.h in Headers */,
-				229196AE13ABCFB5005EBD41 /* logo.h in Headers */,
-				229196AF13ABCFB5005EBD41 /* menu.h in Headers */,
-				229196B013ABCFB5005EBD41 /* messageq.h in Headers */,
-				229196B113ABCFB5005EBD41 /* model.h in Headers */,
-				229196B213ABCFB5005EBD41 /* mouse.h in Headers */,
-				229196B313ABCFB5005EBD41 /* multiplay.h in Headers */,
-				229196B413ABCFB5005EBD41 /* net.h in Headers */,
-				229196B513ABCFB5005EBD41 /* objects.h in Headers */,
-				229196B613ABCFB5005EBD41 /* particles.h in Headers */,
-				229196B713ABCFB5005EBD41 /* quat.h in Headers */,
-				229196B913ABCFB6005EBD41 /* settings.h in Headers */,
-				229196BA13ABCFB6005EBD41 /* sound.h in Headers */,
-				229196BB13ABCFB6005EBD41 /* terrain.h in Headers */,
-				229196BC13ABCFB6005EBD41 /* timer.h in Headers */,
-				229196BD13ABCFB6005EBD41 /* track.h in Headers */,
-				229196BE13ABCFB6005EBD41 /* trees.h in Headers */,
-				229196BF13ABCFB6005EBD41 /* utility.h in Headers */,
-				229196C013ABCFB6005EBD41 /* vamosworld.h in Headers */,
-				229196C113ABCFB6005EBD41 /* weather.h in Headers */,
-				22C729BB13ACF04C00B978EF /* replay.h in Headers */,
+				F54D29531404500E00EC9779 /* backdrop.h in Headers */,
+				F54D29541404500E00EC9779 /* bezier.h in Headers */,
+				F54D29551404500E00EC9779 /* camera.h in Headers */,
+				F54D29561404500E00EC9779 /* config_mac.h in Headers */,
+				F54D29571404500E00EC9779 /* configfile.h in Headers */,
+				F54D29581404500E00EC9779 /* controls.h in Headers */,
+				F54D29591404500E00EC9779 /* endian_utility.h in Headers */,
+				F54D295A1404500E00EC9779 /* font.h in Headers */,
+				F54D295B1404500E00EC9779 /* gamestate.h in Headers */,
+				F54D295C1404500E00EC9779 /* globals.h in Headers */,
+				F54D295D1404500E00EC9779 /* joepack.h in Headers */,
+				F54D295E1404500E00EC9779 /* keyman.h in Headers */,
+				F54D295F1404500E00EC9779 /* logo.h in Headers */,
+				F54D29601404500E00EC9779 /* menu.h in Headers */,
+				F54D29611404500E00EC9779 /* messageq.h in Headers */,
+				F54D29621404500E00EC9779 /* model.h in Headers */,
+				F54D29631404500E00EC9779 /* mouse.h in Headers */,
+				F54D29641404500E00EC9779 /* multiplay.h in Headers */,
+				F54D29651404500E00EC9779 /* net.h in Headers */,
+				F54D29661404500E00EC9779 /* objects.h in Headers */,
+				F54D29671404500E00EC9779 /* particles.h in Headers */,
+				F54D29681404500E00EC9779 /* quat.h in Headers */,
+				F54D29691404500E00EC9779 /* replay.h in Headers */,
+				F54D296C1404500E00EC9779 /* settings.h in Headers */,
+				F54D296D1404500E00EC9779 /* sound.h in Headers */,
+				F54D29701404500E00EC9779 /* terrain.h in Headers */,
+				F54D29711404500E00EC9779 /* timer.h in Headers */,
+				F54D29721404500E00EC9779 /* track.h in Headers */,
+				F54D29731404500E00EC9779 /* trees.h in Headers */,
+				F54D29741404500E00EC9779 /* utility.h in Headers */,
+				F54D29751404500E00EC9779 /* vamosworld.h in Headers */,
+				F54D29761404500E00EC9779 /* weather.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +396,7 @@
 			);
 			name = trackeditor;
 			productName = trackeditor;
-			productReference = 229195F213ABCDEB005EBD41 /* trackeditor.app */;
+			productReference = 229195F213ABCDEB005EBD41 /* Trackeditor.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -445,14 +426,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2291966213ABCEB3005EBD41 /* replay.cpp.bak in Resources */,
-				2291966313ABCEB3005EBD41 /* SConscript in Resources */,
-				2291966613ABCEB3005EBD41 /* sound.cpp.fmod in Resources */,
-				2291969413ABCEC1005EBD41 /* replay.h.bak in Resources */,
-				2291969613ABCEC1005EBD41 /* sound.h.fmod in Resources */,
-				2291969713ABCEC1005EBD41 /* sound.h.openal in Resources */,
-				2291970213ABF21B005EBD41 /* sound.cpp in Resources */,
 				22C729B913ACE0DA00B978EF /* Readme.rtf in Resources */,
+				F54D292214044FEE00EC9779 /* replay.cpp.bak in Resources */,
+				F54D292614044FEE00EC9779 /* sound.cpp.fmod in Resources */,
+				F54D292714044FEE00EC9779 /* sound.cpp.openal in Resources */,
+				F54D296A1404500E00EC9779 /* replay.h.bak in Resources */,
+				F54D296E1404500E00EC9779 /* sound.h.fmod in Resources */,
+				F54D296F1404500E00EC9779 /* sound.h.openal in Resources */,
+				F54D29821404562700EC9779 /* vdrift.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,36 +444,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2291964D13ABCEB3005EBD41 /* backdrop.cpp in Sources */,
-				2291964E13ABCEB3005EBD41 /* bezier.cpp in Sources */,
-				2291964F13ABCEB3005EBD41 /* camera.cpp in Sources */,
-				2291965013ABCEB3005EBD41 /* configfile.cpp in Sources */,
-				2291965113ABCEB3005EBD41 /* controls.cc in Sources */,
-				2291965213ABCEB3005EBD41 /* font.cpp in Sources */,
-				2291965313ABCEB3005EBD41 /* gamestate.cpp in Sources */,
-				2291965413ABCEB3005EBD41 /* joepack.cpp in Sources */,
-				2291965513ABCEB3005EBD41 /* keyman.cpp in Sources */,
-				2291965613ABCEB3005EBD41 /* logo.cpp in Sources */,
-				2291965713ABCEB3005EBD41 /* main.cpp in Sources */,
-				2291965813ABCEB3005EBD41 /* menu.cpp in Sources */,
-				2291965913ABCEB3005EBD41 /* messageq.cpp in Sources */,
-				2291965A13ABCEB3005EBD41 /* model.cpp in Sources */,
-				2291965B13ABCEB3005EBD41 /* mouse.cpp in Sources */,
-				2291965C13ABCEB3005EBD41 /* multiplay.cpp in Sources */,
-				2291965D13ABCEB3005EBD41 /* net.cpp in Sources */,
-				2291965E13ABCEB3005EBD41 /* objects.cpp in Sources */,
-				2291965F13ABCEB3005EBD41 /* particles.cpp in Sources */,
-				2291966013ABCEB3005EBD41 /* quat.cpp in Sources */,
-				2291966113ABCEB3005EBD41 /* replay.cpp in Sources */,
-				2291966413ABCEB3005EBD41 /* settings.cpp in Sources */,
-				2291966813ABCEB3005EBD41 /* terrain.cpp in Sources */,
-				2291966913ABCEB3005EBD41 /* timer.cpp in Sources */,
-				2291966A13ABCEB3005EBD41 /* track.cpp in Sources */,
-				2291966B13ABCEB3005EBD41 /* trees.cpp in Sources */,
-				2291966C13ABCEB3005EBD41 /* utility.cpp in Sources */,
-				2291966D13ABCEB3005EBD41 /* vamosworld.cc in Sources */,
-				2291966E13ABCEB3005EBD41 /* weather.cpp in Sources */,
-				2291970113ABF21B005EBD41 /* sound.cpp.openal in Sources */,
+				F54D290D14044FEE00EC9779 /* backdrop.cpp in Sources */,
+				F54D290E14044FEE00EC9779 /* bezier.cpp in Sources */,
+				F54D290F14044FEE00EC9779 /* camera.cpp in Sources */,
+				F54D291014044FEE00EC9779 /* configfile.cpp in Sources */,
+				F54D291114044FEE00EC9779 /* controls.cc in Sources */,
+				F54D291214044FEE00EC9779 /* font.cpp in Sources */,
+				F54D291314044FEE00EC9779 /* gamestate.cpp in Sources */,
+				F54D291414044FEE00EC9779 /* joepack.cpp in Sources */,
+				F54D291514044FEE00EC9779 /* keyman.cpp in Sources */,
+				F54D291614044FEE00EC9779 /* logo.cpp in Sources */,
+				F54D291714044FEE00EC9779 /* main.cpp in Sources */,
+				F54D291814044FEE00EC9779 /* menu.cpp in Sources */,
+				F54D291914044FEE00EC9779 /* messageq.cpp in Sources */,
+				F54D291A14044FEE00EC9779 /* model.cpp in Sources */,
+				F54D291B14044FEE00EC9779 /* mouse.cpp in Sources */,
+				F54D291C14044FEE00EC9779 /* multiplay.cpp in Sources */,
+				F54D291D14044FEE00EC9779 /* net.cpp in Sources */,
+				F54D291E14044FEE00EC9779 /* objects.cpp in Sources */,
+				F54D291F14044FEE00EC9779 /* particles.cpp in Sources */,
+				F54D292014044FEE00EC9779 /* quat.cpp in Sources */,
+				F54D292114044FEE00EC9779 /* replay.cpp in Sources */,
+				F54D292414044FEE00EC9779 /* settings.cpp in Sources */,
+				F54D292514044FEE00EC9779 /* sound.cpp in Sources */,
+				F54D292814044FEE00EC9779 /* terrain.cpp in Sources */,
+				F54D292914044FEE00EC9779 /* timer.cpp in Sources */,
+				F54D292A14044FEE00EC9779 /* track.cpp in Sources */,
+				F54D292B14044FEE00EC9779 /* trees.cpp in Sources */,
+				F54D292C14044FEE00EC9779 /* utility.cpp in Sources */,
+				F54D292D14044FEE00EC9779 /* vamosworld.cc in Sources */,
+				F54D292E14044FEE00EC9779 /* weather.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,17 +484,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../,
+					Fmod,
+					vamos,
+				);
+				INFOPLIST_FILE = Info.plist;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Trackeditor;
 			};
 			name = Debug;
 		};
@@ -521,53 +501,34 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../,
+					Fmod,
+					vamos,
+				);
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = Trackeditor;
 			};
 			name = Release;
 		};
 		2291961113ABCDEC005EBD41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/trackeditor/osx\"",
 				);
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "trackeditor-Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		2291961213ABCDEC005EBD41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/VDrift/Dev/trackeditor/osx\"",
 				);
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = NO;
-				GCC_PREFIX_HEADER = "trackeditor-Prefix.pch";
-				INFOPLIST_FILE = Info.plist;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
