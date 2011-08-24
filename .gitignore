@@ -3,5 +3,7 @@ osx/build/
 .DS_Store
 osx/.DS_Store
 source/.DS_Store
+osx/fmodapi*
 osx/trackeditor.xcodeproj/project.xcworkspace
 osx/trackeditor.xcodeproj/xcuserdata/
+osx/vamos-*
