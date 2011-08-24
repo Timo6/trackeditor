@@ -59,7 +59,6 @@ using namespace std;
 #include "mouse.h"
 #include "trees.h"
 #include "gamestate.h"
-#include "multiplay.h"
 
 #include "globals.h"
 

@@ -48,22 +48,22 @@
 #include <cassert>
 #include <stdlib.h>
 
-#ifdef HAVE_OPENAL
+
 #ifdef __APPLE__
 #include <OpenAL/al.h>
 #include <OpenAL/alc.h>
 //#include <OpenAL/alu.h>
-#include <OpenAL/alut.h>
+//#include <OpenAL/alut.h>
 #else
 #include <AL/al.h>
 #include <AL/alc.h>
 //#include <AL/alu.h>
 #include <AL/alut.h>
 #endif
-#else
-#include "fmod/fmod.h"
-#include "fmod/fmod_errors.h"
-#endif
+
+#include <Fmod/fmod.h>
+#include <Fmod/fmod_errors.h>
+
 
 #include "camera.h"
 #include "utility.h"

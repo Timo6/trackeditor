@@ -54,6 +54,7 @@ using namespace std;
 #include "keyman.h"
 
 #include "globals.h"
+#include "multiplay.h"
 
 #define NUM_CONTROL_MAPPING 4
 

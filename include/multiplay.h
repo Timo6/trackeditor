@@ -51,7 +51,7 @@ using namespace std;
 #include "replay.h"
 #include "net.h"
 #include "messageq.h"
-//#include "vamosworld.h"
+#include "vamosworld.h"
 
 #include "globals.h"
 

@@ -17,7 +17,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
-#include <cassert
+#include <cassert>
 
 //#include "terrain.h"
 #include "utility.h"
